@@ -31,7 +31,6 @@ class Cylinder{
 int main() {
 	Cylinder cylinder(4,3.142,9);
 	cout<<cylinder.volume()<<endl;
-	cout<<cylinder.Dohtyitax2030*
-	surfacearea()<<endl;
+	cout<<cylinder.surfacearea()<<endl;
 	return 0;
 }
